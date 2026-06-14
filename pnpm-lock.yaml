@@ -19,8 +19,8 @@ importers:
         specifier: ^6.7.2
         version: 6.7.2
       '@fortawesome/svelte-fontawesome':
-        specifier: ^0.2.3
-        version: 0.2.3(@fortawesome/fontawesome-svg-core@6.7.1)(svelte@5.56.3(@typescript-eslint/types@8.61.0))
+        specifier: ^0.2.4
+        version: 0.2.4(@fortawesome/fontawesome-svg-core@6.7.1)(svelte@5.56.3(@typescript-eslint/types@8.27.0))
       sass:
         specifier: ^1.83.4
         version: 1.83.4
@@ -470,11 +470,11 @@ packages:
     resolution: {integrity: sha512-7Z/ur0gvCMW8G93dXIQOkQqHo2M5HLhYrRVC0//fakJXxcF1VmMPsxnG6Ee8qEylA8b8Q3peQXWMNZ62lYF28g==}
     engines: {node: '>=6'}
 
-  '@fortawesome/svelte-fontawesome@0.2.3':
-    resolution: {integrity: sha512-jWjTfZK3QqhjtKDEnexhrUWO/uPFeNVU0T71ssUCVrJD/172rk8MVqTiOJwF95sHlTMMOryXD5tcn6JLT6eAKA==}
+  '@fortawesome/svelte-fontawesome@0.2.4':
+    resolution: {integrity: sha512-AEC6wSm8YIDRygt1CiB7TnMcX3YKjhngdUp99IrOKGdsqK7PORoRnwyk3Sp6zW7t8XEFIEMf3UKeveLIxUSHQw==}
     peerDependencies:
-      '@fortawesome/fontawesome-svg-core': ~1 || ~6
-      svelte: '>=3.x'
+      '@fortawesome/fontawesome-svg-core': ~1 || ~6 || ~7
+      svelte: ~3 || ~4 || ~5
 
   '@humanfs/core@0.19.1':
     resolution: {integrity: sha512-5DyQ4+1JEUzejeK1JGICcideyfUbGixgS9jNgex5nqkW+cY7WZhxBigmieN5Qnw9ZosSNVC9KQKyb+GUaGyKUA==}
@@ -2199,7 +2199,7 @@ snapshots:
     dependencies:
       '@fortawesome/fontawesome-common-types': 6.7.2
 
-  '@fortawesome/svelte-fontawesome@0.2.3(@fortawesome/fontawesome-svg-core@6.7.1)(svelte@5.56.3(@typescript-eslint/types@8.61.0))':
+  '@fortawesome/svelte-fontawesome@0.2.4(@fortawesome/fontawesome-svg-core@6.7.1)(svelte@5.56.3(@typescript-eslint/types@8.27.0))':
     dependencies:
       '@fortawesome/fontawesome-svg-core': 6.7.1
       svelte: 5.56.3(@typescript-eslint/types@8.61.0)
