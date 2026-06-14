@@ -20,7 +20,7 @@ importers:
         version: 6.7.2
       '@fortawesome/svelte-fontawesome':
         specifier: ^0.2.4
-        version: 0.2.4(@fortawesome/fontawesome-svg-core@6.7.1)(svelte@5.56.3(@typescript-eslint/types@8.27.0))
+        version: 0.2.4(@fortawesome/fontawesome-svg-core@6.7.1)(svelte@5.56.3(@typescript-eslint/types@8.61.0))
       sass:
         specifier: ^1.83.4
         version: 1.83.4
@@ -29,8 +29,8 @@ importers:
         specifier: ^7.4.0
         version: 7.4.0(@types/node@22.13.11)
       '@sveltejs/adapter-static':
-        specifier: ^3.0.8
-        version: 3.0.8(@sveltejs/kit@2.60.1(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.56.3(@typescript-eslint/types@8.61.0))(vite@6.4.2(@types/node@22.13.11)(sass@1.83.4)(tsx@4.19.2)))(svelte@5.56.3(@typescript-eslint/types@8.61.0))(typescript@5.7.3)(vite@6.4.2(@types/node@22.13.11)(sass@1.83.4)(tsx@4.19.2)))
+        specifier: ^3.0.10
+        version: 3.0.10(@sveltejs/kit@2.60.1(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.56.3(@typescript-eslint/types@8.61.0))(vite@6.4.2(@types/node@22.13.11)(sass@1.83.4)(tsx@4.19.2)))(svelte@5.56.3(@typescript-eslint/types@8.61.0))(typescript@5.7.3)(vite@6.4.2(@types/node@22.13.11)(sass@1.83.4)(tsx@4.19.2)))
       '@sveltejs/enhanced-img':
         specifier: ^0.4.4
         version: 0.4.4(rollup@4.62.0)(svelte@5.56.3(@typescript-eslint/types@8.61.0))(vite@6.4.2(@types/node@22.13.11)(sass@1.83.4)(tsx@4.19.2))
@@ -971,8 +971,8 @@ packages:
     peerDependencies:
       acorn: ^8.9.0
 
-  '@sveltejs/adapter-static@3.0.8':
-    resolution: {integrity: sha512-YaDrquRpZwfcXbnlDsSrBQNCChVOT9MGuSg+dMAyfsAa1SmiAhrA5jUYUiIMC59G92kIbY/AaQOWcBdq+lh+zg==}
+  '@sveltejs/adapter-static@3.0.10':
+    resolution: {integrity: sha512-7D9lYFWJmB7zxZyTE/qxjksvMqzMuYrrsyh1f4AlZqeZeACPRySjbC3aFiY55wb1tWUaKOQG9PVbm74JcN2Iew==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
 
@@ -2199,7 +2199,7 @@ snapshots:
     dependencies:
       '@fortawesome/fontawesome-common-types': 6.7.2
 
-  '@fortawesome/svelte-fontawesome@0.2.4(@fortawesome/fontawesome-svg-core@6.7.1)(svelte@5.56.3(@typescript-eslint/types@8.27.0))':
+  '@fortawesome/svelte-fontawesome@0.2.4(@fortawesome/fontawesome-svg-core@6.7.1)(svelte@5.56.3(@typescript-eslint/types@8.61.0))':
     dependencies:
       '@fortawesome/fontawesome-svg-core': 6.7.1
       svelte: 5.56.3(@typescript-eslint/types@8.61.0)
@@ -2586,7 +2586,7 @@ snapshots:
     dependencies:
       acorn: 8.17.0
 
-  '@sveltejs/adapter-static@3.0.8(@sveltejs/kit@2.60.1(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.56.3(@typescript-eslint/types@8.61.0))(vite@6.4.2(@types/node@22.13.11)(sass@1.83.4)(tsx@4.19.2)))(svelte@5.56.3(@typescript-eslint/types@8.61.0))(typescript@5.7.3)(vite@6.4.2(@types/node@22.13.11)(sass@1.83.4)(tsx@4.19.2)))':
+  '@sveltejs/adapter-static@3.0.10(@sveltejs/kit@2.60.1(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.56.3(@typescript-eslint/types@8.61.0))(vite@6.4.2(@types/node@22.13.11)(sass@1.83.4)(tsx@4.19.2)))(svelte@5.56.3(@typescript-eslint/types@8.61.0))(typescript@5.7.3)(vite@6.4.2(@types/node@22.13.11)(sass@1.83.4)(tsx@4.19.2)))':
     dependencies:
       '@sveltejs/kit': 2.60.1(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.56.3(@typescript-eslint/types@8.61.0))(vite@6.4.2(@types/node@22.13.11)(sass@1.83.4)(tsx@4.19.2)))(svelte@5.56.3(@typescript-eslint/types@8.61.0))(typescript@5.7.3)(vite@6.4.2(@types/node@22.13.11)(sass@1.83.4)(tsx@4.19.2))
 
